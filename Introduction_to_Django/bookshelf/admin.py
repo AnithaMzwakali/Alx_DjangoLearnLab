@@ -1,9 +1,8 @@
 from django.contrib import admin
-from .models import Book
+from .models import Book  
 
-@admin.register(Book)
+@admin.register(Book)  
 class BookAdmin(admin.ModelAdmin):
-    list_display = ('title', 'author', 'publication_year')  # 👈 Columns shown in list view
-    list_filter = ('author', 'publication_year')            # 👈 Sidebar filters
-    search_fields = ('title', 'author')                     # 👈 Search box
-
+    list_display = ('title', 'author', 'publication_year')  
+    list_filter = ('author', 'publication_year')            
+    search_fields = ('title', 'author')                     
