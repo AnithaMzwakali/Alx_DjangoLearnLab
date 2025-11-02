@@ -1,7 +1,0 @@
-LibraryProject/
-├── bookshelf/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   └── ...
