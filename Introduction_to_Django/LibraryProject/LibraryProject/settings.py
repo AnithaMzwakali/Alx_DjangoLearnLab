@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Django settings for LibraryProject project.
 
@@ -21,7 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-vm0h2fply_eh)ksfw18q@s#5okg%efm71a!k2p2#@40yb@(fm%'
+=======
+SECRET_KEY = 'django-insecure-0o!x@d-$_8i*%k^*#xn8m_d0y^x8o*q8@-a@7m7^d5jcw!1+ga'
+>>>>>>> 9c629e57f31d6aae18c66b1a81f2a46636ce1d28
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,8 +34,6 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-=======
->>>>>>> 56412dc0a3e3bfe116510b9925f7ae74a4c45034
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
 ]
 
 MIDDLEWARE = [
@@ -124,8 +124,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-=======
-
-    'relationship_app',
-]
->>>>>>> 56412dc0a3e3bfe116510b9925f7ae74a4c45034

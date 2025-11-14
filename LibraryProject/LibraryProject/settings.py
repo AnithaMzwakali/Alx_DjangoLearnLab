@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Django settings for LibraryProject project.
 
@@ -31,8 +30,6 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-=======
->>>>>>> 56412dc0a3e3bfe116510b9925f7ae74a4c45034
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
+    'relationship_app',
 ]
 
 MIDDLEWARE = [
@@ -62,6 +59,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
@@ -124,8 +122,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-=======
-
-    'relationship_app',
-]
->>>>>>> 56412dc0a3e3bfe116510b9925f7ae74a4c45034
