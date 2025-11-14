@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'advanced_features_and_security',
     'bookshelf',
-
+    'relationship_app',
 ]
 AUTH_USER_MODEL = "advanced_features_and_security.CustomUser"
 
@@ -123,7 +123,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-    'relationship_app',
+'relationship_app',
 ]
 
