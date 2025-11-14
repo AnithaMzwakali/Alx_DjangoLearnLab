@@ -6,7 +6,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'advanced_features_and_security',
+    'bookshelf',
 ]
-
-
 AUTH_USER_MODEL = "advanced_features_and_security.CustomUser"
