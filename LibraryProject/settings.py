@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'advanced_features_and_security',
     'relationship_app',
     'bookshelf',
+    'accounts',
 ]
 
 AUTH_USER_MODEL = "advanced_features_and_security.CustomUser"
